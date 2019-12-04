@@ -1,0 +1,14 @@
+.Cart {
+  position: absolute;
+  width:550px;
+  height: 1080px;
+  z-index: 1000;
+  background: white;
+  color: #777;
+  transition: all 0.4s;
+}
+
+/* .cart-content {
+  border: 1px solid #000;
+  height: 800px;
+} */

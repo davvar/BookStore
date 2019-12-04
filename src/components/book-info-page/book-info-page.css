@@ -1,0 +1,120 @@
+.main-div {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  z-index: 1005;
+  background: rgb(238, 237, 237);
+  transition: all 0.3s;
+}
+
+.about-book-page {
+  width: calc((1920px - 10%) - 10%);
+  height: 600px;
+  padding: 30px;
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(110, 110, 110);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  margin: 35px auto 0;
+  box-shadow: 0 0 25px 1px rgb(192, 186, 186);
+  background: white;
+}
+
+.fa-dollar {
+  color: rgb(2, 63, 2);
+  font-size: 35px;
+}
+
+.fa-times {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.349);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.fa-times:hover {
+  color: white;
+}
+
+.main-book {
+  margin: 0;
+  width: 325px;
+  align-self: stretch;
+}
+
+.book-info {
+  flex-basis: 35%;
+  padding: 0 20px;
+  position: relative;
+}
+
+hr {
+  background: rgba(0, 128, 111, 0.123);
+  margin-bottom: 20px;
+}
+
+.book-info h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: right;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.book-info-btns {
+  position: absolute;
+  bottom: 0;
+  left:4%;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-info-btns .btn {
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background-position: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0  43px;
+}
+
+.book-info-btns .btn span {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+
+.book-about {
+  flex-basis: 40%;
+  font-size: 30px;
+  max-height: calc(325px * 1.5);
+  overflow: hidden;
+}
+
+.you-may-like {
+  position: relative;
+  box-shadow: 0 0 25px 1px rgb(192, 186, 186);
+  background: white;
+  border-radius: 8px;
+  width: calc(1920px - 30%);
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 5px;
+  margin: 40px auto;
+  border: 2px solid rgb(192, 203, 238);
+}
+
+.you-may-like_book {
+  cursor: pointer;
+  width: 200px;
+  height: 280px;
+  margin: 10px;
+  /* box-shadow: 1px -2px 10px 1px rgb(0, 0, 0); */
+}
